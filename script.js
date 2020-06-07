@@ -28,7 +28,7 @@ window.onload = function() {
  */
 function playGame(){
   let numberGuess = document.getElementById('number-guess').value;
-  console.log(correctNumber);
+  // console.log(correctNumber);
   displayResult(numberGuess);
   saveGuessHistory(numberGuess);
   displayHistory();
